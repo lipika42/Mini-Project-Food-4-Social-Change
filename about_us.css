@@ -1,0 +1,243 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2021, 9:30:23 AM
+    Author     : lincia dsouza
+*/
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+
+div { position: absolute; }
+
+#content-container { display: block; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+
+#_home {
+    
+	top: 100px;
+	left: 1250px;
+	width: 1000px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#_about {
+	top: 100px;
+	left: 1450px;
+	width: 1000px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#_contact_us {
+	top: 100px;
+	left: 1650px;
+	width: 1004px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#about_us {
+   
+	top: 185px;
+	left: 1350px;
+	width: 1008px;
+	height: 75px;
+        z-index: 1;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 78px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#FFFFFF;
+}
+#to_create {
+	top: 600px;
+	left: 200px;
+	width: 1000px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: left;
+        z-index: 1;
+	line-height: 48.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#F4E0E0;
+}
+#our_mission{
+	top: 500px;
+	left: 200px;
+	width: 1000px;
+	overflow: hidden;
+	font-family: Roboto;
+        font-weight: bold;
+        letter-spacing: 2px;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: left;
+        z-index: 1;
+	line-height: 48.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#ffffff;
+}
+#our_team{
+	top: 1000px;
+	left: 200px;
+	width: 1000px;
+        height: 240px;
+	overflow: hidden;
+	font-family: Roboto;
+        font-weight: bold;
+        letter-spacing: 2px;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: left;
+        z-index: 1;
+	line-height: 48.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#ffffff;
+}
+#line{
+   
+	top: 139px !important;
+	position: absolute !important;
+	left: 1450px;
+	width: 110px;
+	height: 5px;
+	background:url(skins/line.png);
+	background-size:cover;
+}
+.wrapper{
+  position: relative;
+  height: 330px;
+  width: 620px;
+  perspective: 1000px;
+  top: 550px;
+  left: 1200px;
+}
+.wrapper .flip-card{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  background: #D48600;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper:hover .flip-card{
+  transform: rotateY(180deg);
+}
+.flip-card .card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #F4E0E0;
+  
+  border-top: 2px solid #cc6600;
+  border-left: 2px solid #cc6600;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  backface-visibility: hidden;
+  position: absolute;
+}
+.front.card{
+    border-radius: 20px;
+    background-image: url(skins/about_bg.png);
+}
+.card span.circle,
+.card span.square{
+  height: 110px;
+  width: 110px;
+  border: 10px solid #4d2600;
+}
+.card span.circle{
+  border-radius: 50%;
+}
+.card span.triangle{
+  position: relative;
+  height: 0;
+  width: 0;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 110px solid #4d2600;
+  margin-right: 16px;
+}
+.card span.triangle::before{
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: -40px;
+  top: 20px;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 80px solid #D48600;
+}
+.back.card{
+  transform: rotateY(180deg);
+  color: #F4E0E0;
+  border-radius: 20px;
+  
+}
+
+.back.card .home-logo{
+  position: relative;
+  height: 65px;
+  width: 65px;
+  border: 5px solid #F4E0E0;
+  border-radius: 50%;
+  margin-right: 16px;
+}

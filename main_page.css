@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2021, 9:16:21 AM
+    Author     : lincia dsouza
+*/
+
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+
+div { position: absolute; }
+
+#content-container { display: block; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+
+
+
+#page_main_page_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1280px;
+	height: 960px;
+}
+
+#_bg__main_page_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1280px;
+	height: 960px;
+	background:#CCB3B3;
+}
+
+
+#__mother_teresa {
+   
+	top: 310px;
+	left: 780px;
+	width: 1008px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 65px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#000000;
+}
+#_home {
+	top: -290px;
+	left: 1477px;
+	width: 1000px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#_about {
+	top: -290px;
+	left: 1677px;
+	width: 100px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#_contact_us {
+	top: -290px;
+	left: 1877px;
+	width: 134px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#signup {
+	top: 207px;
+	left: 914px;
+	width: 190px;
+	height: 34px;
+        
+}
+
+#rectangle_51 {
+	top: -300px !important;
+	position: absolute !important;
+	left: 2100px;
+	width: 195px;
+	height: 65px;
+	background:url(skins/rectangle_51.png);
+	background-size:cover;
+}
+#sign_up {
+	top: -290px;
+	left: 2135px;
+	width: 1101px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color:#FAF9F9;
+}
+#signin {
+	top: 117px;
+	left: 1045px;
+	width: 101px;
+	height: 34px;
+}
+
+#rectangle_51_ek1 {
+	top: -300px !important;
+	position: absolute !important;
+	left: 2400px;
+	width: 195px;
+	height: 65px;
+	background:url(skins/rectangle_51_ek1.png);
+	background-size:cover;
+}
+#sign_in {
+	top: -290px;
+	left: 2440px;
+	width: 1101px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color:#FAF9F9;
+}
+#rectangle_53 {
+	top: -50px !important;
+	position: absolute !important;
+	left: 1500px;
+	width: 1003px;
+	height: 870px;
+	background:url(skins/rectangle_53.png);
+	background-size:cover;
+}
+#__if_you_can_t_feed_100_people__feed_just_one__ {
+	margin-top: 540px;
+    top: 950px;
+	left: 400px;
+	width: 1000px;
+	height: 830px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: left;
+	line-height: 98.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#000000;
+}
+#mask_group {
+	top: -370px !important;
+	position: absolute !important;
+	left: 345px;
+	width: 280px;
+	height: 280px;
+	background:url(skins/mask_group.png);
+	background-size:cover;
+}

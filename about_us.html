@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Mini Project | About Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="about_us.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="skins/mask_group.png" type="image/x-icon">
+    </head>
+    <body>
+        <div>
+        <style>
+body {
+  background-image: url(skins/about_bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<style>
+        h1 {
+            color: #5E3D3D;
+        }
+        a {
+            color: purple;
+            text-decoration: none;
+        }
+        .card {
+            background-color: transparent;
+            width: 650px;
+            height: 400px;
+            perspective: 1000px;
+             top: 510px;
+  left: 1200px;
+  border-radius: 30px;
+        }
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 40px;
+        }
+        .card-front {
+            background-color: #bbb;
+            color: black;
+        }
+        .card-back {
+            background-color: #F4E0E0;
+            transform: rotateY(180deg);
+        }
+    </style>
+<a id="_home_link" href="main_page.html" >
+				<div id="_home" >
+					Home
+				</div>
+</a>
+<div id="line"  ></div>
+        <div id="contact_front"  >
+        </div>
+        
+                                    <div id="about_us" >
+					About us
+				</div>
+				
+				<a id="_about_link" href="about_us.html" >
+				<div id="_about" >
+					About
+				</div>
+				</a>
+				<a id="_contact_us_link" href="contact.html" >
+				<div id="_contact_us" >
+					Contact us
+				</div>
+				</a>
+<div id="to_create" >
+    To create a better everyday</br>life for the many people</br>by connecting them to food
+				</div>
+<div id="our_mission" >
+    Our Mission</div>
+<div id="our_team" >
+   Our Team</div>
+<div id="line"  ></div>
+        <div id="contact_front"  >
+        </div>
+          <div class="card">
+          
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src=
+"skins/card.jpeg"
+                            style="width:650px;height:400px;border-radius: 30px;">
+                </div>
+                  
+                <div class="card-back">
+                    <h1>QUOTE</h1>
+                    <p style="font-family: Roboto;
+	font-size: 35px;
+        text-align: left;"> "One person can make a </br> difference & everyone should try." </br> -John F. Kennedy
+                    
+                    </p>
+                      
+                   
+                </div>
+            </div>
+        </div>
+ </div>
+    </body>
+</html>

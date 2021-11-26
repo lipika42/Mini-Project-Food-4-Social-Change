@@ -1,0 +1,458 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2021, 8:21:12 PM
+    Author     : lincia dsouza
+*/
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+
+div { position: absolute; }
+
+#content-container { display: block; position: relative;  margin-left: auto; margin-right: auto;  }
+
+#content-container > div{ position: relative; top:inherit; }
+
+#_home {
+    
+	top: 100px;
+	left: 1250px;
+	width: 1000px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#_about {
+	top: 100px;
+	left: 1450px;
+	width: 1000px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#_contact_us {
+	top: 100px;
+	left: 1650px;
+	width: 1004px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#5E3D3D;
+}
+#__mother_teresa {
+   
+	top: 185px;
+	left: 1250px;
+	width: 1008px;
+	height: 75px;
+        z-index: 1;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 78px;
+	font-weight: bold;
+	text-align: left;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#FFFFFF;
+}
+#__if_you_can_t_feed_100_people__feed_just_one__ {
+	top: 280px;
+	left: 1040px;
+	width: 1000px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 35px;
+	font-weight: normal;
+	text-align: center;
+        z-index: 1;
+	line-height: 38.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#ffffff;
+}
+#contactinfo{
+	top: 430px;
+	left: 900px;
+	width: 1000px;
+	overflow: hidden;
+	font-family: Roboto;
+        font-weight: bold;
+        letter-spacing: 2px;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: left;
+        z-index: 1;
+	line-height: 38.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#ffffff;
+}
+#dropamessage{
+	top: 430px;
+	left: 1350px;
+	width: 1000px;
+        height: 50px;
+	overflow: hidden;
+	font-family: Roboto;
+        font-weight: bold;
+        letter-spacing: 2px;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: left;
+        z-index: 1;
+	line-height: 38.012497425079px;
+	-ms-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-o-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-webkit-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	-moz-text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	text-shadow:5px 6px 11px rgba(0,0,0,0.25);
+	color:#ffffff;
+}
+#contact_front {
+   
+	top: 380px !important;
+	position: absolute !important;
+	left: 850px;
+	width: 1315px; 
+	height: 910px;
+	background:url(skins/contact_front.png);
+	background-size:cover;
+}
+#mailicon {
+   
+	top: 570px !important;
+	position: absolute !important;
+	z-index: 9999;
+        left: 890px;
+	width: 50px; 
+	height: 50px;
+        
+	background:url(skins/mail.png);
+	background-size:cover;
+}
+#emailid {
+    
+	top: 625px;
+	left: 870px;
+	width: 1000px;
+	height: 45px;
+        z-index: 9999;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	-ms-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-o-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-webkit-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	-moz-text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	text-shadow:2px 2px 4px rgba(0,0,0,0.25);
+	color:#ffffff;
+}
+#line{
+   
+	top: 139px !important;
+	position: absolute !important;
+	left: 1650px;
+	width: 188px;
+	height: 5px;
+	background:url(skins/line.png);
+	background-size:cover;
+}
+*{box-sizing: border-box;
+}
+input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
+{
+    width: 100%;
+    padding: 22px;
+    border: 4px solid #927A7A;
+    border-radius: 8px;
+    resize: vertical;
+    	top: 480px;
+	left: 490px;
+	width: 360px;
+	height: 40px;
+        font-size: 25px;   
+}
+input[type=query]{
+    height: 50px;
+}
+textarea{
+    width:45%;
+    padding: 10px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 3px;
+    resize: vertical;
+    
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-image:  linear-gradient(to left, #2743FD,#4A5FE7, #6678F1);
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.16);
+  font-size: 25px;
+   margin-left: 421px;
+    margin-top: 725px;
+    width: 165px;
+    height: 54px;  	
+}
+input[type=submit]:hover {
+background-color: #32a336;
+}
+.container{
+    border-radius: 5px;
+    background-color:#f2f2f2;
+    padding: 20px;
+}
+.col-10{
+                  top: 500px;
+	left: 1400px;
+	width: 690px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:#FFFFFF;
+}
+.col-90{
+              top: 550px;
+	left: 1400px;
+	width: 375px;
+	height: 52px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.col-70{
+                  top: 600px;
+	left: 1400px;
+	width: 590px;
+	height: 47px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:#FFFFFF;
+}
+.col-4{
+              top: 690px;
+	left: 1530px;
+	width: 375px;
+	height: 38px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+.col-80{
+                  top: 690px;
+	left: 1530px;
+	width: 375px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.col-3{
+              top: 650px;
+	left: 1480px;
+	width: 1075px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+.col-38{
+              top: 650px;
+	left: 1400px;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+.col-50{
+                  top: 680px;
+	left: 1400px;
+	width: 375px;
+	height: 95px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:#FFFFFF;
+}
+.col-2{
+              top: 725px;
+	left: 1400px;
+	width: 1000px;
+	height: 85px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+.col-60{
+                  top: 805px;
+	left: 1400px;
+	width: 375px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Arial;
+	font-size: 30px;
+	text-align: left;
+	color:#FFFFFF;
+}
+.col-1{
+              top: 830px;
+	left: 1400px;
+	width: 375px;
+	height: 85px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+.col-61{
+                  top: 790px;
+	left: 290px;
+	width: 375px;
+	height: 45px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 30px;
+	text-align: left;
+	color:#000000;
+}
+.col-11{
+              top: 815px;
+	left: 290px;
+	width: 375px;
+	height: 75px;
+	overflow: hidden;
+	font-family: Roboto;
+	font-size: 25px;
+	text-align: left;
+	color:#000000;
+}
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-image:  linear-gradient(to left, #52ACFF,#44A5FF, #319BFD);
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.16);
+  font-size: 30px;
+  margin-left: 1570px;
+ margin-top: 840px;
+    width: 205px;
+    height: 60px;  
+    top: 35px;
+    position: relative;
+}
+.cls{
+    margin-top: 850px;
+    margin-left: 1480px;
+    position: absolute;
+	color: #000000 !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #F4E0E0;
+	padding: 20px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: bold;
+	transition: all 0.4s ease 0s;
+}
+.cls:hover{
+    
+    font-size: 25px;
+        font-weight: bold;
+    	background: #ffffff;
+	letter-spacing: 2.5px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .col-10,.col-90,.col-1,.col-2,.col-3,.col-4,input[type=submit]{
+        width: 100%;
+        margin-top: 0;
+    }
+}
